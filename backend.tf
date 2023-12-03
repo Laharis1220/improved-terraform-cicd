@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
       backend "s3" {
       bucket         = "lahariimprovedterraformproject" 
       key            = "lahari/terraform.tfstate"
@@ -7,4 +7,3 @@
       dynamodb_table = "terraform-lock"
    }
   }
-*/
