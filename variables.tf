@@ -7,6 +7,12 @@ variable "cidr1" {
 variable "cidr2" {
   default = "10.0.1.0/24"
 }
+variable "cidr3" {
+  default = "10.0.1.0/24"
+}
+variable "cidr4" {
+   default = ["0.0.0.0/0"]
+}
 variable "ami_value" {
   default = "ami-0fc5d935ebf8bc3bc"
 }
