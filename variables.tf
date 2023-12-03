@@ -7,3 +7,10 @@ variable "cidr1" {
 variable "cidr2" {
   default = "10.0.1.0/24"
 }
+variable "ami_value" {
+  default = "ami-0fc5d935ebf8bc3bc"
+}
+
+variable "instance_type_value" {
+  default = "t2.micro"
+}
