@@ -22,7 +22,7 @@ agent  any
             }
       stage('Plan') {
             steps {
-                sh 'pwd;cd terraform/ ; terraform init -reconfigure'
+                sh 'pwd;cd terraform/ ; terraform init -force-copy'
                 sh "pwd;cd terraform/ ; terraform plan -out tfplan"
                 sh 'pwd;cd terraform/ ; terraform show -no-color tfplan > tfplan.txt'
             }
