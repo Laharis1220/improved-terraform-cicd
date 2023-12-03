@@ -8,7 +8,7 @@ variable "cidr2" {
   default = "10.0.1.0/24"
 }
 variable "cidr3" {
-  default = "10.0.1.0/24"
+  default = "0.0.0.0/0"
 }
 variable "cidr4" {
    default = ["0.0.0.0/0"]
